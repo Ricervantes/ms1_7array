@@ -33,13 +33,13 @@ console.log(array_perro[1]);
  console.log("la raza es :",perro.raza);
  console.log(perro["color"]);
 
- let keys= object.keys(perro);
+/* let keys= object.keys(perro);
  console.log(keys);
  keys.forEach(llave => {
     console.log(perro[llave]);
     console.log(llave);
 
- });
+ });*/
  let perro2=    {
     "nombre":"willy",
     "color":"negro",
@@ -53,7 +53,37 @@ console.log(array_perro[1]);
 console.log(raza);
 console.log(edad);
 
-
-
- const nombre_perro=perro2
-
+const json_colores = `
+{
+    "arrayColores":[{
+            "nombreColor":"rojo",
+            "valorHexadec":"#f00"
+        },
+        {
+            "nombreColor":"verde",
+            "valorHexadec":"#0f0"
+        },
+        {
+            "nombreColor":"azul",
+            "valorHexadec":"#00f"
+        },
+        {
+            "nombreColor":"cyan",
+            "valorHexadec":"#0ff"
+        },
+        {
+            "nombreColor":"magenta",
+            "valorHexadec":"#f0f"
+        },
+        {
+            "nombreColor":"amarillo",
+            "valorHexadec":"#ff0"
+        },
+        {
+            "nombreColor":"negro",
+            "valorHexadec":"#000"
+        }
+    ]
+}
+`;
+console.log(json_colores);

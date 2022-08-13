@@ -40,4 +40,20 @@ console.log(array_perro[1]);
     console.log(llave);
 
  });
+ let perro2=    {
+    "nombre":"willy",
+    "color":"negro",
+    "raza":"labrador",
+    "edad":4,
+    "paises":8,
+
+ };
+
+ const {raza,edad}=perro2;
+console.log(raza);
+console.log(edad);
+
+
+
+ const nombre_perro=perro2
 
